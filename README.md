@@ -1,1 +1,1 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.
+This is a fork of the source code to Jon Barron's public academic website: https://jonbarron.info/. I also borrowed some design elements from Mengdi Xu's website: https://mxu34.github.io/. I am grateful to both Jon and Mengdi Xu or sharing their code and design.
