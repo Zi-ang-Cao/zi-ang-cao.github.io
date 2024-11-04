@@ -94,75 +94,201 @@
     <tr>
       <td>
         <h2> News </h2>
-<!-- 
+        <!-- <p>
+            <strong></strong>
+
+          </p> -->
+
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="100%" valign="middle">
               <p>
-                2024/05 - We are organizing the RSS Workshop on <a
-                  href="https://sites.google.com/view/lifelong-robot-learning">Lifelong Robot Learning: Generalization,
-                  Adaptation, and Deployment with Large Models</a>. Please consider submitting your work!
+                2024/11 - I provided the demo <a
+                  href="https://src.stanford.edu/demo/house-heroes-the-tidy-taskforce">House Heroes: The Stanford Tidy
+                  Taskforce</a> at Stanford Robotic Center Launch Ceremony.
                 <br>
-                2024/05 - We are organizing the <a href="https://sites.google.com/view/rsspioneers2024/">RSS Pioneers
-                  2024 Workshop</a>. See you in Delft!
+                2024/08 - Two papers got accepted to CoRL 2024
                 <br>
-                2024/05 - I successfully passed my thesis defense. Many thanks to my thesis committee!
+                2023/08 - One papers got accepted to CoRL 2023
                 <br>
-                2024/03 - One paper got accepted to NAACL 2024.
-                <br>
-                2023/10 - A new arXiv preprint <a href="https://arxiv.org/pdf/2310.13065.pdf">RoboTool</a>.
-                <br>
-                2023/09 - One paper got accepted to NeurIPS 2023.
-                <br>
-                2023/08 - Two papers got accepted to CoRL 2023, and <a
-                  href="https://openreview.net/forum?id=flyQ0v8cgC">COVERS</a> was accepted for an oral presentation!
-                <br>
-                2023/08 - Selected as <a href="https://eecsrisingstars2023.cc.gatech.edu/">EECS Rising Star</a>!
-                <br>
-                2023/05 - Selected as <a href="https://sites.google.com/view/rsspioneers2023/participants">RSS
-                  Pioneer</a>!
-                <br>
-                2023/02 - Selected as <a href="https://risingstars.oden.utexas.edu/">Rising Star in Computational and
-                  Data Sciences</a>!
-                <br>
-                2023/02 - I joined Google DeepMind as a Student Researcher.
-                <br>
-                2023/01 - Our work on efficient adaptation of transformer agents got accepted to ICLR 2023.
               </p>
             </td>
           </tr>
-        </table> -->
-
+        </table>
       </td>
     </tr>
   </table>
 
-  <br>
 
-  <table width="900" border="0" align="center" cellspacing="0" cellpadding="0">
+  <table width="900" border="0" align="center" cellspacing="0" cellpadding="0">   
+    <tr><td><h2> Selected Publications </h2></td></tr>
     <tr>
       <td>
-        <h2> Selected Publications </h2>
+        <h4>Equivariance Imitation Learning</h4>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:10px;width:20%;vertical-align:middle">
+              <img src="images/research/Equibot.gif" alt="Equivariance Imitation Learning" style="border-style: none"
+                width="220">
+            </td>
+            <td style="padding:10px;width:80%;vertical-align:middle">
+              <p>
+                <papertitle>Equi-Bot: Equivariance in Imitation Learning for Robust Mobile Manipulation</papertitle>
+              </p>
+              <strong>Zi-ang Cao</strong><span style="text-transform:uppercase">*</span>,
+              <a href="https://yjy0625.github.io/">
+                <author>Jingyun Yang</author><span style="text-transform:uppercase">*</span>
+              </a>,
+              <a href="https://cs.stanford.edu/~congyue/">
+                <author>Congyue Deng</author>
+              </a>,
+              <a href="https://contactrika.github.io/">
+                <author>Rika Antonova</author>
+              </a>,
+              <a href="https://shurans.github.io">
+                <author>Shuran Song</author>
+              </a>,
+              <a href="https://web.stanford.edu/~bohg/">
+                <author>Jeannette Bohg</author>
+              </a>
+              <br>
+              <span style="color:green;"><em>Conference on Robot Learning (<strong>CoRL</strong>),
+                  2024</em></span>. <span style="text-transform:uppercase">*</span> indicates equal
+              contribution.</em>
+              <br>
+              <a href="https://arxiv.org/abs/2407.01479">[arXiv]</a>
+              <a href="https://equi-bot.github.io">[Project Site]</a>
+              <p>
+                Exploring equivariant representations for enhanced generalization in robot imitation learning.
+                Targeting mobile manipulation applications.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-        <h3>Equivariance Imitation Learning</h3>
+    <tr>
+      <td>
+        <h4>Failure Detection</h4>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:10px;width:20%;vertical-align:middle">
+              <img src="images/research/sentinel_pushchair_ood.gif" alt="clean-usnob" style="border-style: none"
+                width="220">
+            </td>
+            <td style="padding:10px;width:80%;vertical-align:middle">
+              <p>
+                <papertitle>Unpacking Failure Modes of Generative Policies: Runtime Monitoring of Consistency and
+                  Progress
+                </papertitle>
+              </p>
+              <a href="https://www.chrisagia.com">
+                <author>Christopher Agia</author>
+              </a>,
+              <a href="https://rohansinha.nl/">
+                <author>Rohan Sinha</author>
+              </a>,
+              <a href="https://yjy0625.github.io/">
+                <author>Jingyun Yang</author>
+              </a>,
+              <strong>Zi-ang Cao</strong>,
+              <a href="https://contactrika.github.io/">
+                <author>Rika Antonova</author>
+              </a>,
+              <a href="https://web.stanford.edu/~pavone/">
+                <author>Marco Pavone</author>
+              </a>,
+              <a href="https://web.stanford.edu/~bohg/">
+                <author>Jeannette Bohg</author>
+              </a>
+              <br>
+              <span style="color:green;"><em>Conference on Robot Learning (<strong>CoRL</strong>),
+                  2024</em></span>
+              <br>
+              <a href="https://arxiv.org/abs/2410.04640">[arXiv]</a>
+              <a href="https://sites.google.com/stanford.edu/sentinel">[Project Site]</a>
+              <p>
+                Robot behavior policies trained via imitation learning are prone to failure under conditions that
+                deviate
+                from
+                their training data.
+                In this work, we present Sentinel, a runtime monitor that detects unknown failures (requiring no data of
+                failures) of generative robot policies at deployment time.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-        <br>
+    <tr>
+      <td>
+        <h4>Sim 2 Real</h4>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:10px;width:20%;vertical-align:middle">
+              <img src="images/research/compass.gif" alt="hpp" style="border-style: none" width="220">
+            </td>
+            <td style="padding:10px;width:80%;vertical-align:middle">
+              <p>
+                <papertitle>What Went Wrong? Closing the Sim-to-Real Gap via Differentiable Causal Discovery
+                </papertitle>
+              </p>
+              <a href="https://peidehuang.github.io/">
+                <author>Peide Huang</author>
+              </a>,
+              <strong>Ziang Cao<span style="text-transform:uppercase">*</span></strong>,
+              Xilun Zhang<span style="text-transform:uppercase">*</span>,
+              <a href="https://shiqiliu-67.github.io/">
+                <author>Shiqi Liu<span style="text-transform:uppercase">*</span></author>
+              </a>,
+              <a href="https://mxu34.github.io/">
+                <author>Mengdi Xu</author>
+              </a>,
+              <a href="https://wenhao.pub/">
+                <author>Wenhao Ding</author>
+              </a>,
+              Jonathan Francis, Bingqing Chen,
+              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">
+                <author>Ding Zhao</author>
+              </a>
+              <br>
+              <span style="color:green;"><em>Conference on Robot Learning (<strong>CoRL</strong>),
+                  2023</em></span>. <span style="text-transform:uppercase">*</span> indicates equal contribution.</em>
+              <br>
+              <a href="https://arxiv.org/pdf/2306.15864.pdf">[paper]</a>
+              <a href="https://sites.google.com/view/sim2real-compass">[webpage]</a>
+              <br>
+              <em>Abridged in IROS 2023 Workshop on Causality for Robotics: Answering the Question of Why.</em>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 
-        <h3>Failure Detection</h3>
 
 
-        <br>
 
-        <h3>Sim 2 Real</h3>
+  <!-- <br> -->
+  <tr>
 
-        <br>
+  </tr>
+  <br>
+  <!-- 
+    <h4>CV and ML</h4>
 
-        <h3>CV and ML</h3>
+    <br>
 
-        <br>
+
 
       </td>
     </tr>
+    <br> -->
+
+  </td>
+  </tr>
   </table>
 
   <br>
@@ -171,6 +297,15 @@
     <tr>
       <td>
         <h2> Services </h2>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="100%" valign="middle">
+              <p>
+                Conference Reviewer: Robotics: Science and Systems (RSS)
+              </p>
+            </td>
+          </tr>
+        </table>
 
       </td>
     </tr>
